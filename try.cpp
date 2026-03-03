@@ -11,3 +11,16 @@ void hitungluas() {
     cin >> jariJari;
 }
 
+// fungsi untuk menghitung luas lingkaran
+float luas ( float jariJari  ){
+    return 3.14159 * jariJari * jariJari;
+}
+
+void akhir () {
+    cout << "Hasil luas untuk lingkaran dengan jari-jari = " << luas  (jariJari) << endl;
+}
+
+int main() {
+    hitungluas();
+    akhir();
+}
