@@ -17,4 +17,12 @@ int luaspersegi() {
     return p * l;
 }
 
+void output(){
+    cout << "hasilnya = " << luaspersegi() << endl;
+    cout << "terimash";
+}
 
+int main() { //mulai
+    input();
+    output();
+} //selesai
