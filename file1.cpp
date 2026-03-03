@@ -13,4 +13,8 @@ void input() {
     cin >> l;
 }
 
+int luaspersegi() {
+    return p * l;
+}
+
 
