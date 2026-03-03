@@ -26,3 +26,8 @@ void output() {
     cout << "terima kasih " << endl;
 }
 
+int main() { //mulai
+    input();
+    output();
+    cout << "Hasil penjumlahan = " << jumlah (15.1, 24.9, 67);
+}// selesai
