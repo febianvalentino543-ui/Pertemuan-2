@@ -21,3 +21,8 @@ int luasPersegiP ( int a, int b ) {
     return a * b;
 }
 
+void output() {
+    cout << "Hasilnya = " << luasPersegiP (p, l) << endl;
+    cout << "terima kasih " << endl;
+}
+
